@@ -1,0 +1,10 @@
+{{{{angular}}}}
+<div class="post" ng-repeat="pic in pictures">
+	<h2>{{pic.title}}</h2>
+	<img src="" alt="{{pic.title}}" ng-src="/pic/{{pic.filename}}">
+	<div class="panel">
+		<span>by <a href="{{pic.source}}">{{pic.author}}</a></span>
+		<span>{{pic.favorites}} × <span class="heart" ng-click="incFavorites($index)">❤</span></span>
+	</div>
+</div>
+{{{{/angular}}}}

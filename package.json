@@ -1,0 +1,24 @@
+{
+	"name": "demo-mean-squirrelhub",
+	"version": "1.0.0",
+	"description": "A demo website built using Node.js, MongoDB, Express.js and AngularJS.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kurogetsusai/demo-mean-squirrelhub.git"
+	},
+	"author": "Sai Kurogetsu",
+	"license": "Unlicense",
+	"bugs": {
+		"url": "https://github.com/kurogetsusai/demo-mean-squirrelhub/issues"
+	},
+	"homepage": "https://github.com/kurogetsusai/demo-mean-squirrelhub#readme",
+	"dependencies": {
+		"express": "^4.14.0",
+		"express-handlebars": "^3.0.0",
+		"mongoose": "^4.7.6"
+	}
+}
