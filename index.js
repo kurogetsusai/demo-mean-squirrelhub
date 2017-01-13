@@ -62,7 +62,7 @@ app.get('/', function (request, response) {
 	response.render('home');
 });
 
-app.get('/rest/:get/:param1', function (request, response, next) {
+app.get('/rest/get/:param1', function (request, response, next) {
 	var entity = request.params.param1;
 
 	switch (entity) {
